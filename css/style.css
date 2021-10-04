@@ -907,9 +907,9 @@ font-size: 15.5px;
 }
 
 .slideshow-container .slide-text .sz{
-  margin-top: 15px;
-
-  width: 100%;
+margin-top: 15px;
+width: 100%;
+cursor: pointer;
 
 }
 
