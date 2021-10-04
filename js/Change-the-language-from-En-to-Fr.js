@@ -31,6 +31,11 @@ let formationtext4 = document.getElementById("tex19");
 let formationtext5 = document.getElementById("tex20");
 let formationtext6 = document.getElementById("tex21");
 let formationtext7 = document.getElementById("tex22");
+let formationtext8 = document.getElementById("tex80");
+let formationtext9 = document.getElementById("tex81");
+let formationtext10 = document.getElementById("tex82");
+
+
 
 //Skills
 let Skillstext1 = document.getElementById("tex23");
@@ -158,14 +163,20 @@ if(getLanuage === "français"){
     educationtext7.innerHTML = "2017 - 2018 :";
     educationtext8.innerHTML = "Niveau Baccalauréat Sciences de la Vie et de la Terre.";
 
+    
 //formation
-    formationtext1.innerHTML = "FORMATION EN LIGNE";
-    formationtext2.innerHTML = "Plateforme Linkedin et SoloLearn";
+    formationtext1.innerHTML = "CERTIFICATS EN LIGNE";
+    formationtext2.innerHTML = "Plateforme Linkedin";
     formationtext3.innerHTML = "2020 - 2021 :";
-    formationtext4.innerHTML = "Certificat d'achèvement de cours en HTML5 et CSS3 et javascript et jquery<br> et UI/UX et React.js .";
+    formationtext4.innerHTML = "Certificat de Développement web front-end en HTML5, CSS, Sass, Bootstrap 4 & 5, LESS, JavaScript, jQuery, React.js, UX UI, Responsive Web Design .";
     formationtext5.innerHTML = "Plateforme Edraak";
     formationtext6.innerHTML = "2020 - 2021 :";
     formationtext7.innerHTML = "Certificat d'achèvement du cours d'introduction au monde des réseaux<br>et de la programmation avec Python.";
+    formationtext8.innerHTML = "Plateforme SoloLearn";
+    formationtext9.innerHTML = "2020 - 2021 :";
+    formationtext10.innerHTML = "Certificats en HTML5, CSS, JavaScript, jQuery, Responsive Web Design.";
+
+
 
 //Skills
     Skillstext1.innerHTML = "Compétences";
@@ -272,13 +283,18 @@ if(getLanuage === "français"){
     educationtext7.innerHTML = "2017 - 2018 :";
     educationtext8.innerHTML = "Baccalaureate level Life and Earth Sciences.";
 //formation
-    formationtext1.innerHTML = "ONLINE FORMATION";
-    formationtext2.innerHTML = "Platform Linkedin & SoloLearn";
+    formationtext1.innerHTML = "ONLINE CERTIFICATES";
+    formationtext2.innerHTML = "Platform Linkedin";
     formationtext3.innerHTML = "2020 - 2021 :";
-    formationtext4.innerHTML = "Course Completion Certificate In HTML5 and CSS3 and javascript and jquery<br> and UI/UX and React.js .";
+    formationtext4.innerHTML = "Front End Web Development Certificate in HTML5, CSS, Sass, Bootstrap 4 & 5, LESS, JavaScript, jQuery, React.js, UX UI, Responsive Web Design.";
     formationtext5.innerHTML = "Platform Edraak";
     formationtext6.innerHTML = "2020 - 2021 :";
     formationtext7.innerHTML = "Certificate Of Completion Of Course In Introduction To The World Of Networking <br> and Programming With Python.";
+    formationtext8.innerHTML = "Platform SoloLearn";
+    formationtext9.innerHTML = "2020 - 2021 :";
+    formationtext10.innerHTML = "Certificates in HTML5, CSS, JavaScript, jQuery, Responsive Web Design.";
+
+
 
 //Skills
     Skillstext1.innerHTML = "Skills";
