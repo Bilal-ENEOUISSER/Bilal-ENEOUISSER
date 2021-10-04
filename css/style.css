@@ -119,6 +119,11 @@ body{
 .topnav .logo1{
   width: 115px;
 }
+.topnav .logo2{
+  width: 115px;
+  display: none;
+}
+
 
 .topnav {
   width: 1300px;
@@ -155,7 +160,7 @@ body{
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 772px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -163,7 +168,7 @@ body{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 772px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -178,6 +183,18 @@ body{
   .topnav{
     display: inline-block;
     width: 100%;
+  }
+  .topnav .logo1{
+    display: none;
+  }
+  .topnav .nvbr2 .logo2{
+    display: block;
+    cursor: none;
+    pointer-events: none;
+  }
+  .topnav .nvbr2 .noclk{
+    cursor: none;
+    pointer-events: none;
   }
 }
 
@@ -450,7 +467,7 @@ article {
 }
 
 .education{
-  width: 50%;
+  width: 45%;
 }
 .formation{
   width: 50%;
@@ -1176,7 +1193,7 @@ footer span{
 
 
 
-@media (min-width : 786px) and (max-width : 900px){
+@media (min-width : 800px) and (max-width : 900px){
   h3:after{content: "786px - 900px";}
 
   .container{
@@ -1212,6 +1229,7 @@ footer span{
 
   .education{
     width: 100%;
+    padding-top: 50px;
   }
   .formation{
     width: 100%;
@@ -1286,14 +1304,16 @@ footer span{
 
 
 
-@media (min-width : 901px) and (max-width : 1000px){
+@media (min-width : 900px) and (max-width : 1000px){
   h3:after{content: "901px--1000px";}
   .container{
     width: 90%;
     
     padding-left: 15px;
   }
-
+  .wrapper1 h1{
+    font-size: 32px;
+  }
   .progres_val{
     width: 370px;
   }
@@ -1423,7 +1443,7 @@ footer span{
 }
 
 
-@media (min-width : 600px) and (max-width : 785px){
+@media (min-width : 600px) and (max-width : 800px){
   h3:after{content: "600px - 785px";}
 
   .container{
@@ -1459,6 +1479,7 @@ footer span{
 
   .education{
     width: 100%;
+    padding-top: 50px;
   }
   .formation{
     width: 100%;
@@ -1574,6 +1595,8 @@ footer span{
 
   .education{
     width: 100%;
+    padding-top: 50px;
+
   }
   .formation{
     width: 100%;
@@ -1652,6 +1675,8 @@ footer span{
   }
   .container .about p:nth-child(3) {
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .edu{
     flex-direction: column;
@@ -1767,12 +1792,14 @@ footer span{
   }
 
   .slideshow-container .slide-text .ligne1{
-    font-size: 12px;
+    font-size: 16px;
   }
   .slideshow-container .slide-text .text3{
-    font-size: 12px;
+    font-size: 16px;
 
   }
+  
+  
 
   .word p{
     font-size: 18px;
@@ -1793,6 +1820,9 @@ footer span{
     width: 300px;
     height: 290px;
   }
+  .social{
+    display: none;
+  }
 
 
 
@@ -1810,6 +1840,8 @@ footer span{
   }
   .container .about p:nth-child(3) {
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .edu{
     flex-direction: column;
@@ -1925,10 +1957,10 @@ footer span{
   }
 
   .slideshow-container .slide-text .ligne1{
-    font-size: 14px;
+    font-size: 15px;
   }
   .slideshow-container .slide-text .text3{
-    font-size: 13px;
+    font-size: 15px;
 
   }
 
